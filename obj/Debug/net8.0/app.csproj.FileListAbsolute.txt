@@ -26,3 +26,4 @@ C:\Users\OGAGAOGHENE\Documents\Codespace\C#\obj\Debug\net8.0\refint\app.dll
 C:\Users\OGAGAOGHENE\Documents\Codespace\C#\obj\Debug\net8.0\app.pdb
 C:\Users\OGAGAOGHENE\Documents\Codespace\C#\obj\Debug\net8.0\app.genruntimeconfig.cache
 C:\Users\OGAGAOGHENE\Documents\Codespace\C#\obj\Debug\net8.0\ref\app.dll
+C:\Users\OGAGAOGHENE\Documents\Codespace\C#\obj\Debug\net8.0\app.sourcelink.json

@@ -1,21 +1,16 @@
-﻿using System;
-using System.Globalization;
+﻿
+using System;
+using MyNamespace.Arithmetic; 
 
-// Single Line comment 
-/* Multiline Comment */
-
-namespace mainNamespace
+namespace MyNamespace 
 {
-    class MainClass 
-    {       
+    class MyClass 
+    {
         static void Main(string[] args)
         {
-            Console.WriteLine("I love programming in C# "); 
-            Console.WriteLine("What is your name ? ");
-            string name = Console.ReadLine();
-            Console.WriteLine("Welcome to C# " + name  + " how old are you ?"); 
-            int age = Convert.ToInt16( Console.ReadLine() );
-            Console.WriteLine( name + " is " + age + " years old ");
+            ArithmeticClass A1 = new ArithmeticClass();
+            Console.WriteLine( A1.add(200000, 123232 ));  
+            
         }
     }
 }
