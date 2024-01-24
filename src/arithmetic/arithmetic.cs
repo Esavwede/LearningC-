@@ -1,12 +1,22 @@
-using System;
 
-namespace MyNamespace.Arithmetic 
+
+namespace App.ArithmeticNamespace 
 {
-    class ArithmeticClass 
+    class Arithmetic 
     {
-        public int add(int a, int b)
+        public double Add( double num1, double num2 )
         {
-            return a + b; 
+            return num1 + num2; 
+        }
+
+        public double Subtract( double num1, double num2 )
+        {
+            return num1 - num2; 
+        }
+
+        public double Mul(double num1, double num2 )
+        {
+            return num1 * num2; 
         }
     }
 }

@@ -1,22 +1,82 @@
 ﻿
-using System;
-using MyNamespace.Arithmetic; 
-using MyNamespace.Conditional; 
+using System; 
+using App.ArithmeticNamespace;
+using App.DatatypesNamespace;
+using App.ConditionalNamespace; 
 
-namespace MyNamespace 
+namespace App 
 {
-    class MyClass 
+    class App 
     {
-        static void Main(string[] args)
+        static void Main( string[] args)
         {
+            // This is a single line comment in C# 
+            /*  This is a multiline comment in C# */       
 
-            // Arithmetic Class 
-            ArithmeticClass A1 = new ArithmeticClass();
-            Console.WriteLine( A1.add(200000, 123232 ));  
 
-            // Conditional Class 
-            ConditionalClass C1 = new ConditionalClass();
-            C1.UserIsOnline(false); 
+            // Console.WriteLine(" Program Started ");
+            // Console.WriteLine(" Enter your name into the terminal ");            
+            // string name = Console.ReadLine();
+            // Console.WriteLine($" Welcome to C# programming { name } ");
+
+
+            // /* Datatypes */ 
+            // Datatypes dataTypeClass = new Datatypes("I love programming in C# ");
+            // dataTypeClass.setDatatypes('a',25,true,6);
+
+
+            // /* Basic Arithmetic Operations */ 
+            // Arithmetic arithmetic = new Arithmetic(); 
+            // Console.WriteLine($" 1 + 1 : {  arithmetic.Add(1,1) }");
+            // Console.WriteLine($" 1 * 1 : { arithmetic.Mul(1,1) } "); 
+            // Console.WriteLine($" 1 - 1 : { arithmetic.Subtract(1,1) }"); 
+
+
+            // Conditonals 
+            Conditional conditional = new Conditional();
+            conditional.CheckProgramQualityScore(10); 
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
