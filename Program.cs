@@ -3,6 +3,8 @@ using System;
 using App.ArithmeticNamespace;
 using App.DatatypesNamespace;
 using App.ConditionalNamespace; 
+using App.LoopNamespace; 
+using App.ArrayNamespace; 
 
 namespace App 
 {
@@ -32,9 +34,21 @@ namespace App
             // Console.WriteLine($" 1 - 1 : { arithmetic.Subtract(1,1) }"); 
 
 
-            // Conditonals 
-            Conditional conditional = new Conditional();
-            conditional.CheckProgramQualityScore(10); 
+            // // Conditonals 
+            // Conditional conditional = new Conditional();
+            // conditional.CheckProgramQualityScore(10); 
+
+
+            // // Loops 
+            // Loop loop = new Loop("randomLoopId");
+            // loop.While();
+            // loop.For(); 
+            // loop.ForEach(); 
+
+
+            // Array 
+            ArrayClass myArray = new ArrayClass(); 
+            myArray.Run(); 
         }
     }
 }
